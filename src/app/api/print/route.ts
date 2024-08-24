@@ -11,7 +11,6 @@ interface PrintRequest {
 export async function POST(req: NextRequest) {
   try {
     // Safely parse the JSON and assert its type
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const body: PrintRequest = await req.json();
 
     const { data, ip, port } = body;
