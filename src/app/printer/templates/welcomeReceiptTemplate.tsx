@@ -1,4 +1,3 @@
-// src/app/(notLogin)/printer/templates/welcomeReceiptTemplate.tsx
 import React from 'react';
 import { Br, Cut, Line, Printer, render, Text } from 'react-thermal-printer';
 
